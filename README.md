@@ -10,7 +10,7 @@
 
 **A state-of-the-art deep learning system for predicting energy consumption patterns across multiple sectors in India**
 
-[📊 Live Demo](#) • [📄 Research Paper](#) • [🎥 Demo Video](#) • [📦 Dataset](#datasets)
+[📊 Live Demo](#) • [📄 Research Paper](#) • [📦 Dataset](#datasets)
 
 </div>
 
