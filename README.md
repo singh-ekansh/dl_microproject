@@ -8,9 +8,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
-**A state-of-the-art deep learning system for predicting energy consumption patterns across multiple sectors in India**
+**A deep learning system for predicting energy consumption patterns across multiple sectors in India**
 
-[📊 Live Demo](#) • [📄 Research Paper](#) • [📦 Dataset](#datasets)
 
 </div>
 
@@ -26,7 +25,7 @@
 - [Model Performance](#model-performance)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Research Paper](#research-paper)
+- [Report](#research-paper)
 - [Contributing](#contributing)
 - [Team](#team)
 - [License](#license)
@@ -43,7 +42,7 @@ This project implements a sophisticated **Bidirectional LSTM with Attention Mech
 - 🏢 **Commercial Energy Consumption**
 - 🌍 **State-wise Energy Consumption**
 
-The project features an interactive dashboard built with Streamlit, allowing users to visualize historical patterns, make predictions, and analyze consumption trends across different time periods and sectors.
+The project features an interactive dashboard built with Streamlit, allowing users to visualise historical patterns, make predictions, and analyse consumption trends across different time periods and sectors.
 
 ---
 
