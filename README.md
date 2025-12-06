@@ -411,6 +411,10 @@ We welcome contributions! Here's how you can help:
 ## 👥 Team
 
 This project was developed as a college project by a team of 4 students:
+Ekansh singh 	102215107
+Chirag Bansal 	102215109
+Pratima	        102215324
+Kanchan Saini 	102215322
 
 **For detailed information about team members, please visit the "Created By" page in the dashboard.**
 
