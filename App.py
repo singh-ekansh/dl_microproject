@@ -1,6 +1,5 @@
 """
 Energy Consumption Prediction Dashboard
-Main application entry point
 """
 
 import streamlit as st
@@ -20,8 +19,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'Get Help': 'https://github.com/yourusername/energy-prediction',
-        'Report a bug': "https://github.com/yourusername/energy-prediction/issues",
+        'Get Help': 'https://github.com/singh-ekansh',
+        'Report a bug': "https://github.com/singh-ekansh",
         'About': "# Energy Consumption Prediction System\nDeep Learning Based Forecasting"
     }
 )
@@ -180,8 +179,7 @@ st.markdown("""
 
 # Sidebar
 with st.sidebar:
-    st.image("https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/PNG/Power-BI.png", width=100)
-    st.title("⚙️ Configuration")
+    
 
     st.markdown("---")
 

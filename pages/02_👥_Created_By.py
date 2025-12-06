@@ -23,20 +23,20 @@ st.markdown("""
         margin-bottom: 3rem;
         box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     }
-
+    
     .team-header h1 {
         color: white;
         font-size: 3rem;
         margin-bottom: 0.5rem;
         font-weight: 700;
     }
-
+    
     .team-header p {
         color: rgba(255,255,255,0.9);
         font-size: 1.3rem;
         margin: 0;
     }
-
+    
     .team-card {
         background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
         border: 2px solid rgba(102, 126, 234, 0.3);
@@ -46,13 +46,13 @@ st.markdown("""
         transition: all 0.3s ease;
         height: 100%;
     }
-
+    
     .team-card:hover {
         transform: translateY(-10px);
         border-color: #667eea;
         box-shadow: 0 15px 30px rgba(102, 126, 234, 0.3);
     }
-
+    
     .member-avatar {
         width: 120px;
         height: 120px;
@@ -66,7 +66,7 @@ st.markdown("""
         color: white;
         box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     }
-
+    
     .member-name {
         font-size: 1.8rem;
         font-weight: 700;
@@ -74,7 +74,7 @@ st.markdown("""
         text-align: center;
         margin-bottom: 0.5rem;
     }
-
+    
     .member-role {
         font-size: 1.2rem;
         color: rgba(255,255,255,0.7);
@@ -82,14 +82,14 @@ st.markdown("""
         margin-bottom: 1rem;
         font-weight: 500;
     }
-
+    
     .member-desc {
         text-align: center;
         color: rgba(255,255,255,0.8);
         line-height: 1.6;
         margin-bottom: 1.5rem;
     }
-
+    
     .skills-container {
         display: flex;
         flex-wrap: wrap;
@@ -97,7 +97,7 @@ st.markdown("""
         justify-content: center;
         margin-top: 1rem;
     }
-
+    
     .skill-badge {
         background: rgba(102, 126, 234, 0.2);
         color: #667eea;
@@ -106,7 +106,7 @@ st.markdown("""
         font-size: 0.9rem;
         border: 1px solid rgba(102, 126, 234, 0.3);
     }
-
+    
     .contribution-card {
         background: rgba(255,255,255,0.05);
         border-left: 4px solid #667eea;
@@ -114,12 +114,12 @@ st.markdown("""
         border-radius: 8px;
         margin: 1rem 0;
     }
-
+    
     .contribution-card h3 {
         color: #667eea;
         margin-bottom: 0.5rem;
     }
-
+    
     .stats-card {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         padding: 1.5rem;
@@ -127,27 +127,27 @@ st.markdown("""
         text-align: center;
         margin: 1rem 0;
     }
-
+    
     .stats-card h2 {
         color: white;
         font-size: 2.5rem;
         margin: 0;
         font-weight: 700;
     }
-
+    
     .stats-card p {
         color: rgba(255,255,255,0.9);
         margin: 0.5rem 0 0 0;
         font-size: 1.1rem;
     }
-
+    
     .timeline-item {
         border-left: 3px solid #667eea;
         padding-left: 1.5rem;
         margin-bottom: 2rem;
         position: relative;
     }
-
+    
     .timeline-item::before {
         content: '';
         position: absolute;
@@ -158,19 +158,19 @@ st.markdown("""
         border-radius: 50%;
         background: #667eea;
     }
-
+    
     .timeline-item h4 {
         color: #667eea;
         margin-bottom: 0.3rem;
     }
-
+    
     .social-links {
         display: flex;
         justify-content: center;
         gap: 1rem;
         margin-top: 1rem;
     }
-
+    
     .social-btn {
         background: rgba(102, 126, 234, 0.2);
         color: #667eea;
@@ -180,7 +180,7 @@ st.markdown("""
         transition: all 0.3s ease;
         border: 1px solid rgba(102, 126, 234, 0.3);
     }
-
+    
     .social-btn:hover {
         background: #667eea;
         color: white;
@@ -193,15 +193,13 @@ st.markdown("""
 st.markdown("""
 <div class="team-header">
     <h1>👥 Meet Our Team</h1>
-    <p>The brilliant minds behind the Energy Consumption Prediction System</p>
+    <p>The minds behind the Energy Consumption Prediction System</p>
 </div>
 """, unsafe_allow_html=True)
 
 # Team introduction
 st.markdown("""
 <div style="text-align: center; margin: 2rem 0; font-size: 1.2rem; color: rgba(255,255,255,0.8);">
-    We are a team of four passionate computer science students who developed this 
-    cutting-edge deep learning system for energy consumption prediction. 
     Our project combines advanced machine learning techniques with real-world applications 
     to address India's growing energy management needs.
 </div>
@@ -256,18 +254,9 @@ with col1:
     st.markdown("""
     <div class="team-card">
         <div class="member-avatar">👨‍💻</div>
-        <div class="member-name">Member 1 Name</div>
-        <div class="member-role">Team Lead & ML Engineer</div>
-        <div class="member-desc">
-            Led the development of the Bi-LSTM architecture with attention mechanism. 
-            Specialized in deep learning model optimization and hyperparameter tuning.
-        </div>
-        <div class="skills-container">
-            <span class="skill-badge">TensorFlow</span>
-            <span class="skill-badge">Deep Learning</span>
-            <span class="skill-badge">Python</span>
-            <span class="skill-badge">Model Architecture</span>
-        </div>
+        <div class="member-name">Ekansh Singh</div>
+        <div class="member-role">Reg. No. 102215107 (4NC2)</div>
+        
     </div>
     """, unsafe_allow_html=True)
 
@@ -275,18 +264,9 @@ with col2:
     st.markdown("""
     <div class="team-card">
         <div class="member-avatar">👨‍💼</div>
-        <div class="member-name">Member 2 Name</div>
-        <div class="member-role">Data Engineer & Analyst</div>
-        <div class="member-desc">
-            Managed data collection, preprocessing, and feature engineering. 
-            Responsible for creating the robust data pipeline and statistical analysis.
-        </div>
-        <div class="skills-container">
-            <span class="skill-badge">Pandas</span>
-            <span class="skill-badge">Data Analysis</span>
-            <span class="skill-badge">SQL</span>
-            <span class="skill-badge">Feature Engineering</span>
-        </div>
+        <div class="member-name">Chirag Bansal</div>
+        <div class="member-role">Reg. No. 102215109 (4NC2)</div>
+        
     </div>
     """, unsafe_allow_html=True)
 
@@ -297,18 +277,9 @@ with col1:
     st.markdown("""
     <div class="team-card">
         <div class="member-avatar">👩‍🎨</div>
-        <div class="member-name">Member 3 Name</div>
-        <div class="member-role">Frontend Developer & UI/UX Designer</div>
-        <div class="member-desc">
-            Designed and developed the interactive Streamlit dashboard. 
-            Focused on creating an intuitive user experience with beautiful visualizations.
-        </div>
-        <div class="skills-container">
-            <span class="skill-badge">Streamlit</span>
-            <span class="skill-badge">Plotly</span>
-            <span class="skill-badge">UI/UX Design</span>
-            <span class="skill-badge">Visualization</span>
-        </div>
+        <div class="member-name">Pratima</div>
+        <div class="member-role">Reg. No. 102215324 (4NC2)</div>
+        
     </div>
     """, unsafe_allow_html=True)
 
@@ -316,121 +287,15 @@ with col2:
     st.markdown("""
     <div class="team-card">
         <div class="member-avatar">👨‍🔬</div>
-        <div class="member-name">Member 4 Name</div>
-        <div class="member-role">Research Lead & Documentation</div>
-        <div class="member-desc">
-            Conducted literature review of 10+ research papers and wrote the comprehensive 
-            research paper. Managed project documentation and technical writing.
-        </div>
-        <div class="skills-container">
-            <span class="skill-badge">Research</span>
-            <span class="skill-badge">Technical Writing</span>
-            <span class="skill-badge">Literature Review</span>
-            <span class="skill-badge">Documentation</span>
-        </div>
+        <div class="member-name">Kanchan Saini</div>
+        <div class="member-role">Reg. No. 102215322 (4NC2)</div>
+        
+        
     </div>
     """, unsafe_allow_html=True)
 
 st.markdown("---")
 
-# Individual contributions
-st.markdown("## 🎯 Individual Contributions")
-
-col1, col2 = st.columns(2)
-
-with col1:
-    st.markdown("""
-    <div class="contribution-card">
-        <h3>👨‍💻 Member 1 - ML Development</h3>
-        <ul>
-            <li>Designed and implemented Bi-LSTM + Attention architecture</li>
-            <li>Model training and hyperparameter optimization</li>
-            <li>Performance evaluation and comparison</li>
-            <li>Integration with data pipeline</li>
-        </ul>
-    </div>
-
-    <div class="contribution-card">
-        <h3>👨‍💼 Member 2 - Data Engineering</h3>
-        <ul>
-            <li>Data collection from multiple sources</li>
-            <li>Data cleaning and preprocessing pipeline</li>
-            <li>Feature engineering and selection</li>
-            <li>Statistical analysis and EDA</li>
-        </ul>
-    </div>
-    """, unsafe_allow_html=True)
-
-with col2:
-    st.markdown("""
-    <div class="contribution-card">
-        <h3>👩‍🎨 Member 3 - Frontend Development</h3>
-        <ul>
-            <li>Streamlit dashboard design and development</li>
-            <li>Interactive visualizations with Plotly</li>
-            <li>UI/UX design and styling</li>
-            <li>User testing and refinement</li>
-        </ul>
-    </div>
-
-    <div class="contribution-card">
-        <h3>👨‍🔬 Member 4 - Research & Documentation</h3>
-        <ul>
-            <li>Literature survey of 10+ research papers</li>
-            <li>Research paper writing</li>
-            <li>README and documentation</li>
-            <li>Results analysis and comparison</li>
-        </ul>
-    </div>
-    """, unsafe_allow_html=True)
-
-st.markdown("---")
-
-# Project timeline
-st.markdown("## 📅 Project Timeline")
-
-col1, col2 = st.columns([1, 2])
-
-with col1:
-    st.markdown("""
-    <div style="background: rgba(255,255,255,0.05); padding: 2rem; border-radius: 12px;">
-        <h3 style="color: #667eea; text-align: center;">Duration</h3>
-        <h2 style="text-align: center; color: white;">12 Weeks</h2>
-        <p style="text-align: center; color: rgba(255,255,255,0.7);">
-            September 2025 - December 2025
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
-
-with col2:
-    st.markdown("""
-    <div class="timeline-item">
-        <h4>Week 1-2: Planning & Research</h4>
-        <p>Literature review, dataset selection, project planning</p>
-    </div>
-
-    <div class="timeline-item">
-        <h4>Week 3-5: Data Collection & Preprocessing</h4>
-        <p>Data gathering, cleaning, feature engineering, EDA</p>
-    </div>
-
-    <div class="timeline-item">
-        <h4>Week 6-8: Model Development</h4>
-        <p>Architecture design, model training, optimization</p>
-    </div>
-
-    <div class="timeline-item">
-        <h4>Week 9-10: Dashboard Development</h4>
-        <p>UI/UX design, Streamlit implementation, visualization</p>
-    </div>
-
-    <div class="timeline-item">
-        <h4>Week 11-12: Documentation & Testing</h4>
-        <p>Research paper writing, testing, final refinements</p>
-    </div>
-    """, unsafe_allow_html=True)
-
-st.markdown("---")
 
 # Technologies used
 st.markdown("## 🛠️ Technologies & Tools Used")
@@ -475,7 +340,7 @@ st.markdown("""
     <h3 style="color: #667eea;">Special Thanks To:</h3>
     <ul style="color: rgba(255,255,255,0.8); line-height: 2;">
         <li><strong>Grid Controller of India Ltd.</strong> and <strong>Ministry of Power</strong> for providing the comprehensive energy consumption dataset</li>
-        <li><strong>Our College Faculty</strong> for guidance and support throughout the project</li>
+        <li><strong>Our College Faculty (Dr. Gaganpreet Kaur & Dr. Deepak Rakesh Kumar)</strong> for guidance and support throughout the project</li>
         <li><strong>Open Source Community</strong> for amazing tools and libraries</li>
         <li><strong>Research Papers Authors</strong> whose work inspired our methodology</li>
     </ul>
@@ -493,7 +358,7 @@ with col1:
     st.markdown("""
     <div style="text-align: center; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 12px;">
         <h3>📧 Email</h3>
-        <p style="color: #667eea;">team@energypredict.com</p>
+        <p style="color: #667eea;">esingh3_be22@thapar.edu</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -501,7 +366,7 @@ with col2:
     st.markdown("""
     <div style="text-align: center; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 12px;">
         <h3>🔗 GitHub</h3>
-        <p style="color: #667eea;">github.com/yourteam</p>
+        <p style="color: #667eea;">github.com/singh-ekansh</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -509,7 +374,7 @@ with col3:
     st.markdown("""
     <div style="text-align: center; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 12px;">
         <h3>💼 LinkedIn</h3>
-        <p style="color: #667eea;">linkedin.com/in/yourteam</p>
+        <p style="color: #667eea;">linkedin.com/in/ekanshsinghin</p>
     </div>
     """, unsafe_allow_html=True)
 

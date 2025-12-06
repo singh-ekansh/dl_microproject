@@ -226,7 +226,7 @@ python src/evaluate_model.py --model_path models/best_model.h5
 
 ### 4. Launch Dashboard
 ```bash
-streamlit run app.py
+streamlit run App.py
 ```
 The dashboard will open at `http://localhost:8501`
 
