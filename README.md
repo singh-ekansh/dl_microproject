@@ -289,26 +289,6 @@ print(f"Predicted consumption: {prediction['consumption']} MU")
 energy-consumption-prediction/
 │
 ├── data/
-│   ├── raw/                          # Raw datasets
-│   │   └── india_energy_consumption.csv
-│   ├── processed/                    # Processed datasets
-│   │   ├── train.csv
-│   │   ├── validation.csv
-│   │   └── test.csv
-│   └── features/                     # Feature engineered data
-│
-├── models/
-│   ├── best_model.h5                 # Best trained model
-│   ├── model_checkpoint/             # Training checkpoints
-│   └── scaler.pkl                    # Feature scaler
-│
-├── notebooks/
-│   ├── 01_EDA.ipynb                  # Exploratory Data Analysis
-│   ├── 02_Feature_Engineering.ipynb  # Feature creation
-│   ├── 03_Model_Training.ipynb       # Model development
-│   ├── 04_Model_Evaluation.ipynb     # Performance analysis
-│   └── 05_Visualizations.ipynb       # Advanced visualizations
-│
 ├── src/
 │   ├── __init__.py
 │   ├── config.py                     # Configuration settings
@@ -323,21 +303,6 @@ energy-consumption-prediction/
 ├── pages/
 │   ├── 01_🏠_Home.py                 # Homepage
 │   └── 02_👥_Created_By.py           # Team page
-│
-├── utils/
-│   ├── visualizations.py             # Plotting functions
-│   ├── metrics.py                    # Custom metrics
-│   └── helpers.py                    # Utility functions
-│
-├── scripts/
-│   ├── download_data.py              # Dataset download script
-│   ├── verify_setup.py               # Installation verification
-│   └── generate_report.py            # Auto-generate report
-│
-├── tests/
-│   ├── test_model.py                 # Model tests
-│   ├── test_preprocessing.py         # Data processing tests
-│   └── test_predictions.py           # Prediction tests
 │
 ├── docs/
 │   ├── Research_Paper.docx           # Complete research paper
@@ -413,7 +378,7 @@ Our comprehensive research paper includes:
 - Multi-sector prediction framework
 - Real-world deployment strategy
 
-**Download**: [Research_Paper.docx](docs/Research_Paper.docx)
+**Download**: [Report](docs/Report.pdf)
 
 ---
 
@@ -477,12 +442,6 @@ For queries, suggestions, or collaboration opportunities:
 
 ---
 
-## 📊 Project Status
-
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/energy-consumption-prediction)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/energy-consumption-prediction)
-![GitHub stars](https://img.shields.io/github/stars/yourusername/energy-consumption-prediction)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/energy-consumption-prediction)
 
 **Status**: ✅ Active Development
 
