@@ -1,4 +1,4 @@
-# 🔋 Deep Learning Based Energy Consumption Prediction System
+#  Deep Learning Based Energy Consumption Prediction System
 
 <div align="center">
 
